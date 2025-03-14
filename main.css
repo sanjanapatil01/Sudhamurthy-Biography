@@ -1,0 +1,259 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Times New Roman', Times, serif;
+ }
+
+
+.ull{
+  position: relative;
+  z-index: 20;
+  float: right;
+  display: flex;
+
+ }
+li{
+ list-style-type: none;
+
+ margin-right: 40px;
+
+margin-top: 10px;
+  padding: 3px;
+  }
+  a{
+    text-decoration: none;
+    font-size: 20px;
+  }
+.aa{
+  text-decoration: none;
+  font-size: 25px;
+  color: rgba(255, 255, 255, 0.708);
+  padding: 8px;
+  }
+ul li a:hover
+{
+  color: white;
+  border-bottom: 2px solid rgb(19, 16, 14);
+}
+.photo{
+  background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(Sudha-murty.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position:relative;
+  height: 100vh;
+  width: 100%;
+ 
+  
+}
+.text1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.About{
+  color: rgba(45, 39, 36, 0.795);
+  font-weight: 600;
+  font-size: 80px;
+  text-align: center;
+}
+.para{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+ 
+}
+.para1{
+  
+  height: auto;
+  width: 70%;
+  font-size: 25px;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+#link{
+  list-style-type: circle;
+  margin: 0;
+}
+#para1{
+  width: 80%;
+}
+.paraa{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+  color: rgba(32, 32, 104, 0.893);
+  background-color: white;
+}
+.flower{
+  height: 150px;
+  width: 200px;
+}
+.ou{
+  margin-bottom: 50px;
+}
+.picture{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: auto;
+}
+.read{
+  height: 200px;
+  width: 200px;
+  margin: 0px;
+  margin-right: 20px;
+}
+#english{
+  font-size: 40px;
+  color: rgba(222, 131, 33, 0.886);
+  
+}
+.kannada{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-left: 70px;
+  margin-right: 70px;
+  margin-bottom: 50px;
+}
+.outside{
+  display: block;
+  align-items: center;
+  margin: 30px;
+  border: 2px solid black;
+  width: 303px;
+  height: auto;
+  text-align: center;
+  background-color: rgba(215, 144, 185, 0.137);
+}
+.outside:hover{
+  border: 2px solid rgba(99, 102, 189, 0.47);
+  background-color: rgba(94, 94, 128, 0.297);
+}
+.imgk
+{
+  height: 400px;
+  width: 300px;
+  position: relative;
+}
+.out{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+.box1{
+  width: 400px;
+  height: 100px;
+  margin: 50px;
+  background-color: rgba(196, 187, 106, 0.753);
+  border-radius: 20px 0px 20px 0px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h3{
+font-size: 20px;
+font-weight: 400;
+color: rgba(0, 0, 0, 0.767);
+}
+footer{
+  width: 100%;
+  background-color: rgba(218, 164, 84, 0.628);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+}
+
+@media (min-width:320px) and (max-width:450px)
+{
+  a{
+  font-size: 11px;
+}
+.photo{
+  height: 200px;
+}
+.About{
+  font-size: 25px;
+}
+.para1{
+  font-size: 14px;
+  width: 80%;
+ 
+}
+.flower{
+  height: 60px;
+  width: 100px;
+}
+.picture{
+  display: block;
+  text-align: center;
+  width: 100%;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.ou{
+  margin-bottom: 40px;
+}
+.index{
+ width: 100%;
+ margin-left: 45px;
+}
+.read{
+  height: 100px;
+  width: 120px;
+  margin: 0%;
+}
+#english{
+  font-size: 15px;
+  color: rgba(222, 131, 33, 0.886);
+}
+.imgk
+{
+  height: 100px;
+  width: 100px;
+  position: relative;
+}
+.kannada{
+  margin-left: 0px;
+ display: flex;
+ flex-wrap: wrap;
+  margin-right: 0px;
+}
+.outside{
+  width: 104px;
+margin: 10px;
+}
+#name{
+  font-size: 8px;
+}
+#para1{
+  width: 90%;
+  margin: 0%;
+}
+.out{
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.box1{
+  width: 125px;
+  height: 50px;
+  margin: 10px;
+}
+h3{
+  font-size: 12px;
+}
+footer{
+  height: 30px;
+  font-size: 14px;
+}
+}

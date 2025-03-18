@@ -179,6 +179,8 @@ footer{
   .ull li{
     font-size: 11px;
     float:left;
+    margin-top:5px;
+    margin-right:10px;
 }
   .aa{
   font-size: 11px;

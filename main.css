@@ -176,6 +176,9 @@ footer{
 
 @media (min-width:320px) and (max-width:450px)
 {
+  .ull li{
+    font-size: 11px;
+}
   a{
   font-size: 11px;
 }
